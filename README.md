@@ -3,7 +3,8 @@
 This module contains a ```NameScanner``` class that may be used
 to scan text strings for important key words. This is powered 
 by TensorFlow models. To build your own keyword-finding models, 
-look here: https://github.com/hirnzuchter/name-or-not.
+look here: https://github.com/hirnzuchter/name-or-not. For using your
+model with pyns, you need to save your tokenizer and your weights.
 ## Dependencies
 Tensorflow is the only dependency for this tool.
 ## Recommended Usage
