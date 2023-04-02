@@ -14,7 +14,7 @@ from requests import get
 from pyns import NameScanner
 
 ns = NameScanner(quantity=20, bothgrams=True)
-print(get(https://youtube.com).content)
+print(ns.find_names(str(get("https://youtube.com").content)))
 ```
 Imagine all of the things you can do with this!
 
