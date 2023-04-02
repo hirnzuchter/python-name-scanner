@@ -18,6 +18,6 @@ from pyns import NameScanner
 ns = NameScanner(quantity=20, bothgrams=True)
 print(ns.find_names(str(get("https://youtube.com").content)))
 ```
-Imagine all of the things you can do with this!
+This may be used for things like marketing or even more fine-tuned searching.
 
 If you have any questions or would like to collaborate, contact me at sactoa@gmail.com.
